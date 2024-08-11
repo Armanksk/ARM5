@@ -20,7 +20,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -60,7 +61,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -104,7 +106,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -142,7 +145,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -181,7 +185,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -217,7 +222,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -256,7 +262,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -294,7 +301,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -332,7 +340,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -370,7 +379,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -406,7 +416,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -444,7 +455,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -480,7 +492,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -516,7 +529,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -531,6 +545,43 @@
       ],
       "artifacts": [
         "IERC165"
+      ]
+    },
+    "/workspaces/ARM5/contracts/Hello_swtr.sol": {
+      "lastModificationDate": 1723378949723,
+      "contentHash": "f9647803bbb702664174eed17d57dc3d",
+      "sourceName": "contracts/Hello_swtr.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "Swisstronik"
       ]
     }
   }
